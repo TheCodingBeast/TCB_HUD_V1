@@ -376,6 +376,7 @@ end
 /*---------------------------------------------------------------------------
 Entity HUDPaint things
 ---------------------------------------------------------------------------*/
+local Page = Material("icon16/page_white_text.png")
 local function DrawPlayerInfo(ply)
 	local pos = ply:EyePos()
 
